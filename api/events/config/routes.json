@@ -33,6 +33,14 @@
       }
     },
     {
+      "method": "POST",
+      "path": "/events/many",
+      "handler": "events.createMany",
+      "config": {
+        "policies": []
+      }
+    },
+    {
       "method": "PUT",
       "path": "/events/:id",
       "handler": "events.update",

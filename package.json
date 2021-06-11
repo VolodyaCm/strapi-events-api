@@ -11,7 +11,10 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "cross-blob": "^2.0.0",
+    "jsonfile": "^6.1.0",
     "knex": "0.21.18",
+    "moment": "^2.29.1",
     "slugify": "^1.5.3",
     "sqlite3": "5.0.0",
     "strapi": "3.6.1",
@@ -24,7 +27,7 @@
     "strapi-plugin-upload": "3.6.1",
     "strapi-plugin-users-permissions": "3.6.1",
     "strapi-provider-upload-cloudinary": "^3.6.1",
-    "strapi-utils": "3.6.1"
+    "strapi-utils": "^3.6.1"
   },
   "author": {
     "name": "A Strapi developer"
